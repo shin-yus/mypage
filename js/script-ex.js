@@ -1,15 +1,15 @@
 var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0;
 		if (windowwidth > 768){
 			var responsiveImage = [
-				{ src: './image/land1.jpg'},
-				{ src: './image/land2.jpg'},
-				{ src: './image/land3.jpg'}
+				{ src: 'image/land1.jpg'},
+				{ src: 'image/land2.jpg'},
+				{ src: 'image/land3.jpg'}
 			];
 		} else {
 			var responsiveImage = [
-			    { src: './image/land1.jpg'},
-				{ src: './image/land2.jpg'},
-				{ src: './image/land3.jpg'}
+			    { src: 'image/land1.jpg'},
+				{ src: 'image/land2.jpg'},
+				{ src: 'image/land3.jpg'}
 			];
 		}
 
